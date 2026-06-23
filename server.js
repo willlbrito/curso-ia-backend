@@ -26,8 +26,11 @@ function normalizeEmail(email) {
 // Configure a URL pública deste endpoint + o HOTTOK no painel da Hotmart
 // (Ferramentas > Webhook), e defina a mesma variável HOTMART_HOTTOK no servidor.
 app.post("/webhook/hotmart", (req, res) => {
+  console.log("Webhook recebido da Hotmart:", JSON.stringify(req.body));
+
   const receivedToken = req.headers["x-hotmart-hottok"];
   if (HOTMART_HOTTOK && receivedToken !== HOTMART_HOTTOK) {
+    console.log("Token recebido não bateu com o HOTMART_HOTTOK configurado.");
     return res.status(401).json({ error: "Token inválido" });
   }
 
