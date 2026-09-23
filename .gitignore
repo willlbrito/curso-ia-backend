@@ -1,2 +1,6 @@
 node_modules/
 .env
+
+# Stories Derby: fotos de clientes e PNGs finais ficam só localmente (repo público)
+stories-derby/fotos/
+stories-derby/*.png
