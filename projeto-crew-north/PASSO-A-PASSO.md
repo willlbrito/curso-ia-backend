@@ -81,6 +81,9 @@ THE BRITO'S FAMILY LTD (a empresa, nº 17423204, a dona de tudo)
 | ☐ | **15. Montar a WhatsApp Community** | 30 min | Grupos: 📢 Avisos · 💬 Geral · 🆘 SOS · 🎁 Benefícios. Use as regras do Plano do Projeto (seção 5) |
 | ☐ | **16. Criar o formulário de entrada** | 40 min | Google Forms: nome, área (postcode), apps em que trabalha, veículo, tamanho de camiseta, upload da prova, aceite das regras e da privacidade |
 | ☐ | **17. Escrever a política de privacidade simples** | 30 min | 1 página: que dados coleta, para quê, que apaga o print de prova depois de aprovar, e como a pessoa pede para sair. Coloque no formulário |
+| ☐ | **17b. Criar a planilha de verificação** | 30 min | Colunas: nº de membro, nome, área, data da verificação, método (Ouro/Prata/Bronze), quem verificou, último Kit Check. Veja o PDF 05 |
+| ☐ | **17c. QR code + cartões** | 25 min | QR do formulário (grátis no Canva) + encomendar 500 cartões com QR (~£15–£25) |
+| ☐ | **17d. Ímãs do carro** | 1h (em 2 dias) | Testar se a porta é de aço (ímã de geladeira) → arte no Canva → 2–3 cotações (par de 600×300 mm, até ~£60) → mensagem para a seguradora → encomendar. QR de pelo menos 20 cm |
 
 **Versão mínima do dia:** escolher a foto de perfil ou escrever a bio.
 
@@ -91,8 +94,9 @@ THE BRITO'S FAMILY LTD (a empresa, nº 17423204, a dona de tudo)
 
 | ✅ | Passo | Tempo | Como fazer |
 |---|---|---|---|
+| ☐ | **17e. Montar o Kit de Abordagem e treinar o discurso** | 25 min | Cartões + barrinhas + camiseta. Treine em voz alta o discurso de 20 segundos (inglês e português, no PDF 05) |
 | ☐ | **18. Fazer a lista dos 20** | 20 min | No papel: 20 couriers que você conhece (do trabalho, da rua, conhecidos de conhecidos) |
-| ☐ | **19. Mandar o convite para 5 por dia** | 15 min/dia | Mensagem pessoal, não spam: *"Mano, tô criando uma comunidade só pra courier aqui em Sheffield. Uniforme grátis, prêmios e um grupo de ajuda. Você é um dos 20 fundadores. Entra aí: [link]"* |
+| ☐ | **19. Convidar: 5 conhecidos por dia + 3 saídas de abordagem por semana** | 15–30 min/dia | Mensagem pessoal, não spam: *"Mano, tô criando uma comunidade só pra courier aqui em Sheffield. Uniforme grátis, prêmios e um grupo de ajuda. Você é um dos 20 fundadores. Entra aí: [link]"* |
 | ☐ | **20. Aprovar e dar boas-vindas** | 10 min/dia | Conferir a prova, apagar o print, adicionar ao grupo e mandar a mensagem de boas-vindas com o número de membro (CN-SHF-0001...) |
 | ☐ | **21. Rodar a primeira enquete** | 15 min | *"O que mais te ajudaria? (a) dinheiro extra (b) uniforme (c) desconto em oficina (d) ajuda com imposto (e) seguro mais barato"* |
 | ☐ | **22. Pedir para cada fundador trazer 1 amigo** | 5 min | Mensagem no grupo: *"Cada fundador que trouxer 1 courier ganha +50 Crew Points"* |
