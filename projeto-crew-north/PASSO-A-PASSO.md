@@ -53,7 +53,7 @@ THE BRITO'S FAMILY LTD (a empresa, nº 17423204, a dona de tudo)
 | ☐ | **4. Verificar se o nome "Crew North" está livre** | 15 min | (a) Companies House: procure "Crew North". (b) UK IPO: "search for a trade mark" no gov.uk, grátis. (c) Instagram e TikTok: @crewnorth está livre? Se estiver ocupado, use a lista B: *Crew North UK*, *Road Crew North*, *Drop Crew* |
 | ☐ | **5. Decidir o nome final** | 10 min | Escolha 1 e anote. **Pronto, está decidido. Não volte nessa decisão.** |
 
-**Versão mínima do dia:** abrir o site da Companies House e só olhar a página da De Britos.
+**Versão mínima do dia:** abrir o site da Companies House e só olhar a página da The Brito's Family Ltd.
 
 ### Semana 2
 | ✅ | Passo | Tempo | Como fazer |
@@ -66,13 +66,6 @@ THE BRITO'S FAMILY LTD (a empresa, nº 17423204, a dona de tudo)
 
 **🎉 Fim da Fase 0:** a empresa está pronta. Comemore. Já é mais do que 90% das pessoas que "têm uma ideia" fazem.
 
-### Caminho B: se a De Britos for sole trader (autônomo)
-| ✅ | Passo | Tempo |
-|---|---|---|
-| ☐ | Continue como sole trader por enquanto. A receita da Crew entra no seu Self Assessment | — |
-| ☐ | Abra uma conta bancária separada só para a Crew | 20 min |
-| ☐ | Registro no ICO (igual ao passo 8) | 20 min |
-| ☐ | **Quando a Crew passar de ~£1.000/mês** ou entrar um sócio, abra a **De Britos Ltd** na Companies House (~£50, 1 dia) | depois |
 
 ---
 
