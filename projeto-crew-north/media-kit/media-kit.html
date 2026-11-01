@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Crew North – Partner Media Kit 2026/27</title>
+<style>
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --ink: #0f1115; --hi: #d7ff3a; --orange: #ff6a1a; --grey: #6b7280;
+    --light: #f4f5f7; --line: #e5e7eb;
+  }
+  body { font-family: "Helvetica Neue", Arial, sans-serif; color: var(--ink); font-size: 11pt; line-height: 1.45; }
+  .page { width: 210mm; height: 297mm; padding: 18mm 18mm 16mm; position: relative; page-break-after: always; overflow: hidden; }
+  .page:last-child { page-break-after: auto; }
+  .dark { background: var(--ink); color: #fff; }
+  .footer { position: absolute; bottom: 9mm; left: 18mm; right: 18mm; display: flex; justify-content: space-between; font-size: 8pt; color: var(--grey); border-top: 1px solid var(--line); padding-top: 3mm; }
+  .dark .footer { border-color: #2a2d33; }
+  .tag { display: inline-block; background: var(--hi); color: var(--ink); font-weight: 800; font-size: 8pt; letter-spacing: .12em; text-transform: uppercase; padding: 1.5mm 3mm; border-radius: 1mm; }
+  h1 { font-size: 46pt; line-height: .95; font-weight: 900; letter-spacing: -.02em; }
+  h2 { font-size: 24pt; font-weight: 900; letter-spacing: -.01em; margin: 4mm 0 5mm; }
+  h3 { font-size: 12.5pt; font-weight: 800; margin-bottom: 1.5mm; }
+  p { margin-bottom: 3mm; }
+  .lead { font-size: 13pt; color: #374151; max-width: 150mm; }
+  .dark .lead { color: #cbd0d8; }
+  .hi { color: var(--hi); }
+  .or { color: var(--orange); }
+
+  /* cover */
+  .cover { display: flex; flex-direction: column; justify-content: space-between; padding-bottom: 26mm; }
+  .logo { font-weight: 900; font-size: 18pt; letter-spacing: .04em; }
+  .logo span { background: var(--hi); color: var(--ink); padding: 0 2mm; margin-left: 1mm; }
+  .stripes { position: absolute; right: -30mm; top: 70mm; width: 140mm; height: 140mm; background: repeating-linear-gradient(-45deg, var(--hi) 0 9mm, transparent 9mm 22mm); opacity: .9; transform: rotate(0deg); border-radius: 50%; }
+  .cover-bottom { position: relative; z-index: 2; }
+  .cover-cities { display: flex; gap: 3mm; margin-top: 8mm; }
+  .cover-cities div { border: 1px solid #3a3e46; padding: 2mm 4mm; border-radius: 10mm; font-size: 9pt; }
+  .cover-cities .on { background: var(--hi); color: var(--ink); border-color: var(--hi); font-weight: 800; }
+
+  /* grids */
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 5mm; }
+  .grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4mm; }
+  .grid4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 3.5mm; }
+  .card { background: var(--light); border-radius: 3mm; padding: 5mm; }
+  .card.dk { background: var(--ink); color: #fff; }
+  .card.hl { background: var(--hi); }
+  .stat { font-size: 30pt; font-weight: 900; line-height: 1; margin-bottom: 1.5mm; }
+  .small { font-size: 8.5pt; color: var(--grey); }
+  .dark .small, .card.dk .small { color: #9aa0aa; }
+  ul.tick { list-style: none; }
+  ul.tick li { padding-left: 6mm; position: relative; margin-bottom: 1.8mm; }
+  ul.tick li::before { content: "✔"; position: absolute; left: 0; color: var(--orange); font-weight: 900; }
+  .sep { height: 6mm; }
+
+  /* kit */
+  .kit { display: flex; gap: 8mm; align-items: center; }
+  .shirt { width: 78mm; flex-shrink: 0; }
+  .zone { display: flex; gap: 3mm; align-items: flex-start; margin-bottom: 3.5mm; }
+  .zone b { background: var(--ink); color: var(--hi); border-radius: 50%; width: 7mm; height: 7mm; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-size: 9pt; }
+
+  /* packages */
+  table { width: 100%; border-collapse: collapse; font-size: 9.5pt; }
+  th { text-align: left; padding: 3mm; background: var(--ink); color: #fff; font-size: 9pt; }
+  th:first-child { border-radius: 2mm 0 0 0; } th:last-child { border-radius: 0 2mm 0 0; }
+  td { padding: 2.6mm 3mm; border-bottom: 1px solid var(--line); vertical-align: top; }
+  td.c { text-align: center; font-weight: 800; }
+  tr.price td { background: var(--light); font-weight: 900; font-size: 10.5pt; }
+  .pkgs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4mm; margin-bottom: 6mm; }
+  .pkg { border: 2px solid var(--line); border-radius: 3mm; padding: 5mm; }
+  .pkg.master { border-color: var(--ink); background: var(--ink); color: #fff; }
+  .pkg .price { font-size: 20pt; font-weight: 900; margin: 2mm 0; }
+  .pkg .price small { font-size: 9pt; font-weight: 600; }
+  .pkg.master .price { color: var(--hi); }
+
+  /* roadmap */
+  .road { display: grid; grid-template-columns: repeat(4, 1fr); gap: 3mm; }
+  .step { border-top: 4px solid var(--ink); padding-top: 3mm; }
+  .step.now { border-color: var(--orange); }
+  .step .when { font-size: 8pt; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--grey); }
+
+  .contact { font-size: 15pt; font-weight: 800; line-height: 1.8; }
+  .big-quote { font-size: 22pt; font-weight: 900; line-height: 1.15; }
+</style>
+</head>
+<body>
+
+<!-- 1. COVER -->
+<section class="page dark cover">
+  <div class="logo">CREW<span>NORTH</span></div>
+  <div class="stripes"></div>
+  <div class="cover-bottom">
+    <span class="tag">Partner Media Kit · 2026/27</span>
+    <div class="sep"></div>
+    <h1>Your brand.<br>On the road.<br><span class="hi">All day.</span></h1>
+    <div class="sep"></div>
+    <p class="lead">The verified community of couriers &amp; delivery riders in the North of England. We give riders free kit, rewards and support. Our partners fund it, and their brand rides with them across the city.</p>
+    <div class="cover-cities">
+      <div class="on">Sheffield · Launching now</div>
+      <div>Manchester · 2027</div>
+      <div>Liverpool · 2027</div>
+    </div>
+  </div>
+  <div class="footer"><span>crewnorth · Partner Media Kit</span><span>01</span></div>
+</section>
+
+<!-- 2. WHO WE ARE -->
+<section class="page">
+  <span class="tag">Who we are</span>
+  <h2>Built by a courier,<br>for couriers.</h2>
+  <p class="lead">Crew North was founded by a Sheffield courier who saw that the people who keep the city moving get almost nothing back: no kit, no recognition, no one to call when something goes wrong.</p>
+  <div class="sep"></div>
+  <div class="grid3">
+    <div class="card"><h3>🎽 Free kit</h3><p class="small">T-shirt, hi-vis and winter jacket, co-branded with our partners. Riders wear it because they are proud of it.</p></div>
+    <div class="card"><h3>🏆 Rewards</h3><p class="small">Courier of the Month, monthly challenges and quarterly prize draws, all powered by partners.</p></div>
+    <div class="card"><h3>🆘 Help &amp; SOS</h3><p class="small">A live support network for theft, accidents, breakdowns and questions on tax, insurance and rights.</p></div>
+    <div class="card"><h3>💷 Member deals</h3><p class="small">Exclusive discounts from partners, redeemed with a unique member number.</p></div>
+    <div class="card"><h3>🤝 Meet-ups</h3><p class="small">Monthly events and free maintenance days hosted at partner venues.</p></div>
+    <div class="card"><h3>💼 Work</h3><p class="small">Extra shifts and peak-season jobs shared with a pre-verified pool of drivers.</p></div>
+  </div>
+  <div class="sep"></div>
+  <div class="card dk">
+    <h3 class="hi">Verified members only</h3>
+    <p class="small" style="margin:0">Every member proves they work in delivery (app profile, company badge or route record) before joining. No bots, no random followers. <b style="color:#fff">Every person you reach is a real courier.</b> Free to join, always.</p>
+  </div>
+  <div class="footer"><span>crewnorth · Partner Media Kit</span><span>02</span></div>
+</section>
+
+<!-- 3. THE AUDIENCE -->
+<section class="page">
+  <span class="tag">The audience</span>
+  <h2>The most visible workers<br>in the city.</h2>
+  <p class="lead">Couriers spend their whole working day on the street, in every postcode, at every hour. They are also an audience that is hard to reach with traditional media, and one that buys a lot.</p>
+  <div class="sep"></div>
+  <div class="grid4">
+    <div class="card hl"><div class="stat">8–12h</div><p class="small" style="color:#333">typical day on the road per rider</p></div>
+    <div class="card"><div class="stat">7</div><p class="small">days a week, early morning to late night</p></div>
+    <div class="card"><div class="stat">S1–S36</div><p class="small">every Sheffield postcode covered</p></div>
+    <div class="card dk"><div class="stat hi">100%</div><p class="small">verified delivery workers</p></div>
+  </div>
+  <div class="sep"></div>
+  <div class="grid2">
+    <div>
+      <h3>What our members buy regularly</h3>
+      <ul class="tick">
+        <li>Hire &amp; reward, bike and van insurance</li>
+        <li>Bike, e-bike, moped &amp; van repairs and parts</li>
+        <li>Fuel and EV charging</li>
+        <li>Food, coffee and energy drinks on the go</li>
+        <li>Phones, mounts, power banks, data plans</li>
+        <li>Accountancy and Self Assessment help</li>
+        <li>Workwear, waterproofs, gloves and boots</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Who they are</h3>
+      <ul class="tick">
+        <li>Parcel couriers (self-employed &amp; multi-drop)</li>
+        <li>Food delivery riders on bikes, e-bikes &amp; mopeds</li>
+        <li>Van drivers and same-day couriers</li>
+        <li>Multi-app workers, often on 2–3 platforms</li>
+        <li>A diverse, multilingual and loyal community</li>
+      </ul>
+      <p class="small" style="margin-top:3mm">Member profile data (vehicle, area, platforms) is collected at sign-up and shared with partners in aggregated, anonymous form only (UK GDPR compliant).</p>
+    </div>
+  </div>
+  <div class="footer"><span>crewnorth · Partner Media Kit</span><span>03</span></div>
+</section>
+
+<!-- 4. THE KIT -->
+<section class="page">
+  <span class="tag">The Crew Kit</span>
+  <h2>A moving billboard<br>that people actually like.</h2>
+  <p class="lead">Designed like a football kit: Crew North in the centre, partners around it. Members wear it with pride, and that is what makes it work.</p>
+  <div class="sep"></div>
+  <div class="kit">
+    <svg class="shirt" viewBox="0 0 300 320" xmlns="http://www.w3.org/2000/svg">
+      <path d="M95 20 L60 30 L10 80 L45 125 L70 105 L70 300 L230 300 L230 105 L255 125 L290 80 L240 30 L205 20 Q150 55 95 20 Z" fill="#0f1115"/>
+      <path d="M70 175 L230 175 L230 195 L70 195 Z" fill="#d7ff3a"/>
+      <path d="M70 215 L230 215 L230 228 L70 228 Z" fill="#d7ff3a" opacity=".6"/>
+      <rect x="95" y="75" width="110" height="60" rx="6" fill="none" stroke="#ff6a1a" stroke-width="3" stroke-dasharray="6 4"/>
+      <text x="150" y="110" fill="#fff" font-family="Arial" font-weight="900" font-size="16" text-anchor="middle">MASTER</text>
+      <rect x="18" y="72" width="40" height="22" rx="4" fill="none" stroke="#ff6a1a" stroke-width="2.5" stroke-dasharray="5 3" transform="rotate(-50 38 83)"/>
+      <rect x="242" y="72" width="40" height="22" rx="4" fill="none" stroke="#ff6a1a" stroke-width="2.5" stroke-dasharray="5 3" transform="rotate(50 262 83)"/>
+      <text x="150" y="262" fill="#fff" font-family="Arial" font-weight="900" font-size="20" text-anchor="middle">CREW NORTH</text>
+      <circle cx="22" cy="118" r="12" fill="#ff6a1a"/><text x="22" y="123" fill="#fff" font-family="Arial" font-weight="900" font-size="13" text-anchor="middle">2</text>
+      <circle cx="150" cy="56" r="12" fill="#ff6a1a"/><text x="150" y="61" fill="#fff" font-family="Arial" font-weight="900" font-size="13" text-anchor="middle">1</text>
+      <circle cx="150" cy="290" r="0"/>
+      <text x="150" y="315" fill="#6b7280" font-family="Arial" font-size="11" text-anchor="middle">Back view (illustrative)</text>
+    </svg>
+    <div>
+      <div class="zone"><b>1</b><div><h3>Back panel · Master Partner</h3><p class="small">The largest, most visible spot. Seen by traffic, pedestrians and customers at every drop-off.</p></div></div>
+      <div class="zone"><b>2</b><div><h3>Sleeves · Official Partners</h3><p class="small">Two sleeve positions on every t-shirt and jacket.</p></div></div>
+      <div class="zone"><b>3</b><div><h3>Chest · Crew North + Master</h3><p class="small">Small logo lock-up on the front.</p></div></div>
+      <div class="zone"><b>4</b><div><h3>Hi-vis &amp; winter jacket</h3><p class="small">Back print on EN ISO 20471-certified hi-vis vests and the seasonal "Winter Crew" jacket, the most-worn item from October to March.</p></div></div>
+    </div>
+  </div>
+  <div class="sep"></div>
+  <div class="grid3">
+    <div class="card"><h3>Welcome Kit</h3><p class="small">T-shirt + hi-vis for every new verified member.</p></div>
+    <div class="card"><h3>Winter Crew</h3><p class="small">Waterproof jacket, beanie and gloves, launched every October.</p></div>
+    <div class="card"><h3>Bag covers</h3><p class="small">Delivery bag and backpack covers (coming in phase 2).</p></div>
+  </div>
+  <div class="footer"><span>crewnorth · Partner Media Kit</span><span>04</span></div>
+</section>
+
+<!-- 5. PACKAGES -->
+<section class="page">
+  <span class="tag">Partner packages</span>
+  <h2>Choose how you ride with us.</h2>
+  <div class="pkgs">
+    <div class="pkg">
+      <h3>🥉 Supporter</h3>
+      <div class="price">£150<small>/month</small></div>
+      <p class="small">or in-kind prizes/discounts of equal value</p>
+    </div>
+    <div class="pkg">
+      <h3>🥈 Official Partner</h3>
+      <div class="price">£500<small>/month</small></div>
+      <p class="small">max. 1 brand per category</p>
+    </div>
+    <div class="pkg master">
+      <h3>🥇 Master Partner</h3>
+      <div class="price">£1,500<small>/month</small></div>
+      <p class="small">or full funding of the Crew Kit · 1 per city · category exclusive</p>
+    </div>
+  </div>
+  <table>
+    <tr><th>What you get</th><th style="text-align:center">Supporter</th><th style="text-align:center">Official</th><th style="text-align:center">Master</th></tr>
+    <tr><td>Logo on partner page &amp; socials</td><td class="c">✔</td><td class="c">✔</td><td class="c">✔</td></tr>
+    <tr><td>Exclusive offer in the Member Deals channel</td><td class="c">1/month</td><td class="c">2/month</td><td class="c">Unlimited</td></tr>
+    <tr><td>Announcements to all members</td><td class="c">1/month</td><td class="c">2/month</td><td class="c">4/month</td></tr>
+    <tr><td>Logo on Crew Kit</td><td class="c">–</td><td class="c">Sleeve</td><td class="c">Back + chest</td></tr>
+    <tr><td>Branded monthly challenge / prize</td><td class="c">–</td><td class="c">✔</td><td class="c">✔</td></tr>
+    <tr><td>Naming rights on events ("Crew Meet-up by …")</td><td class="c">–</td><td class="c">–</td><td class="c">✔</td></tr>
+    <tr><td>Member survey questions (market research)</td><td class="c">–</td><td class="c">1/quarter</td><td class="c">1/month</td></tr>
+    <tr><td>Category exclusivity</td><td class="c">–</td><td class="c">✔</td><td class="c">✔</td></tr>
+    <tr><td>Monthly performance report</td><td class="c">Basic</td><td class="c">✔</td><td class="c">Full</td></tr>
+  </table>
+  <div class="sep"></div>
+  <div class="grid2">
+    <div class="card"><h3>🎯 One-off activation · from £200</h3><p class="small">A prize draw, a challenge, a product sampling day or a survey. Ideal to test us before committing.</p></div>
+    <div class="card"><h3>💼 Recruitment · from £75 per hire</h3><p class="small">Share jobs and peak-season shifts with our verified driver pool. Pay only for results.</p></div>
+  </div>
+  <p class="small" style="margin-top:4mm">Prices exclude VAT where applicable. Minimum term 3 months for monthly packages. Bundles for Sheffield + Manchester + Liverpool available from 2027.</p>
+  <div class="footer"><span>crewnorth · Partner Media Kit</span><span>05</span></div>
+</section>
+
+<!-- 6. MEASUREMENT + FOUNDING OFFER -->
+<section class="page">
+  <span class="tag">Results you can see</span>
+  <h2>Every partner gets a<br>monthly report.</h2>
+  <div class="grid2">
+    <ul class="tick">
+      <li>Verified members (total &amp; new)</li>
+      <li>Number of Crew Kits with your logo on the street</li>
+      <li>Photos of members wearing your brand</li>
+      <li>Clicks &amp; redemptions with your unique code (e.g. <b>CREW10</b>)</li>
+    </ul>
+    <ul class="tick">
+      <li>Engagement on your posts and challenges</li>
+      <li>Survey results from your questions</li>
+      <li>Event attendance</li>
+      <li>Hires made through the community</li>
+    </ul>
+  </div>
+  <div class="sep"></div>
+  <span class="tag">Our goals</span>
+  <div class="sep" style="height:3mm"></div>
+  <div class="grid4">
+    <div class="card"><div class="stat">100</div><p class="small">verified couriers in the first 60 days</p></div>
+    <div class="card"><div class="stat">100</div><p class="small">Crew Kits on Sheffield streets by month 3</p></div>
+    <div class="card"><div class="stat">400</div><p class="small">members in Sheffield by month 6</p></div>
+    <div class="card dk"><div class="stat hi">1,500</div><p class="small">members across 3 cities by month 12</p></div>
+  </div>
+  <div class="sep"></div>
+  <div class="card hl" style="padding:7mm">
+    <span class="tag" style="background:var(--ink);color:var(--hi)">Founding Partner offer</span>
+    <h2 style="margin:3mm 0 2mm">Join before we launch.</h2>
+    <p style="font-size:11.5pt">The <b>first 5 partners</b> in Sheffield get:</p>
+    <ul class="tick" style="font-size:10.5pt">
+      <li><b>30% off</b> any monthly package for the first 6 months</li>
+      <li>Permanent <b>"Founding Partner"</b> badge on our partner page and on the first 100 kits</li>
+      <li><b>First right</b> to the Master spot when we open Manchester &amp; Liverpool</li>
+      <li>Your brand at the <b>Crew Kit launch event</b> (photos &amp; video for your own channels)</li>
+    </ul>
+  </div>
+  <div class="footer"><span>crewnorth · Partner Media Kit</span><span>06</span></div>
+</section>
+
+<!-- 7. ROADMAP + CONTACT -->
+<section class="page dark">
+  <span class="tag">Roadmap</span>
+  <h2>From Sheffield to the North.</h2>
+  <div class="road">
+    <div class="step now" style="border-color:var(--hi)"><div class="when">Now</div><h3>Sheffield</h3><p class="small">Founding members, first partners, Crew Kit launch.</p></div>
+    <div class="step" style="border-color:#3a3e46"><div class="when">Months 4–6</div><h3>Grow</h3><p class="small">Meet-ups, Winter Crew kit, area ambassadors, peak-season jobs.</p></div>
+    <div class="step" style="border-color:#3a3e46"><div class="when">Months 7–12</div><h3>Manchester · Liverpool</h3><p class="small">Same model, local partners plus North-wide bundles.</p></div>
+    <div class="step" style="border-color:#3a3e46"><div class="when">Year 2</div><h3>The North</h3><p class="small">Leeds, Bradford, Newcastle and the Crew member app.</p></div>
+  </div>
+  <div class="sep"></div><div class="sep"></div>
+  <p class="big-quote">"The people who deliver<br>everything deserve<br><span class="hi">something back."</span></p>
+  <div class="sep"></div><div class="sep"></div>
+  <h3 class="hi">Let's talk</h3>
+  <div class="contact">
+    [Your Name] · Founder<br>
+    📞 [+44 ...]<br>
+    ✉️ [email]<br>
+    📷 @crewnorth
+  </div>
+  <div class="footer"><span>crewnorth · Partner Media Kit</span><span>07</span></div>
+</section>
+
+</body>
+</html>
