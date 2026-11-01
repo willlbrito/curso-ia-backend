@@ -9,7 +9,7 @@
 ## A ESTRUTURA: COMO FICA
 
 ```
-DE BRITOS (a empresa, a dona de tudo)
+THE BRITO'S FAMILY LTD (a empresa, nº 17423204, a dona de tudo)
 └── CREW NORTH (a marca / "trading name")
       ├── Comunidade de couriers (WhatsApp)
       ├── Patrocínios
@@ -19,20 +19,36 @@ DE BRITOS (a empresa, a dona de tudo)
 
 **Por que assim:**
 - Você **não precisa abrir empresa nova**. Usa a De Britos que já existe e economiza tempo e dinheiro.
-- "Crew North" vira um **nome comercial** (trading name). No Reino Unido, não é preciso registrar o trading name. Basta mostrar o nome legal da empresa nos documentos, por exemplo: *"Crew North is a trading name of De Britos Ltd"*.
+- "Crew North" vira um **nome comercial** (trading name). No Reino Unido, não é preciso registrar o trading name. Basta mostrar o nome legal da empresa nos documentos, por exemplo: *"Crew North is a trading name of The Brito's Family Ltd"*.
 - A missão da De Britos passa a ser **ajudar quem trabalha na rua**, que é o que te move.
 - Se no futuro a Crew crescer muito ou entrar um sócio, dá para separar numa empresa própria. Mas isso fica para depois.
 
 ---
 
 ## 🧱 FASE 0: ARRUMAR A BASE (semanas 1 e 2)
-*Objetivo: a De Britos pronta e legal para receber a Crew.*
+*Objetivo: a empresa pronta e legal para receber a Crew.*
+
+### 📋 A sua empresa (conferida na Companies House)
+| Item | Situação |
+|---|---|
+| Nome | **THE BRITO'S FAMILY LTD** |
+| Número | **17423204** |
+| Tipo | Private limited company (Ltd) ✅ |
+| Status | **Active** ✅, sem nada atrasado |
+| Aberta em | 26 de agosto de 2026 (empresa nova) |
+| Endereço registrado | Sheffield, S14 |
+| Atividade atual (SIC) | 47810 (venda de comida em barraca/mercado) + 56210 (catering de eventos), ainda do projeto do hambúrguer |
+| 1º Confirmation Statement | até **8 de setembro de 2027** (pode fazer antes) |
+| 1ª contabilidade anual (accounts) | período até 31/08/2027, entregar até **26 de maio de 2028** |
+
+**Conclusão:** a empresa está **limpa e pronta**. Não precisa abrir outra. A Crew North vira o trading name dela: *"Crew North is a trading name of The Brito's Family Ltd (company no. 17423204)"*.
 
 ### Semana 1
 | ✅ | Passo | Tempo | Como fazer |
 |---|---|---|---|
-| ☐ | **1. Descobrir o que a De Britos é hoje** | 10 min | Procure "De Britos" em **find-and-update.company-information.service.gov.uk**. Se aparecer, é uma **Ltd**: anote o número da empresa. Se não aparecer, é **sole trader** (autônomo) e você segue pelo caminho B mais abaixo |
-| ☐ | **2. Ver se a empresa está em dia** (se for Ltd) | 15 min | Na página da empresa: o status está "Active"? Tem "overdue" (atrasado) em *accounts* ou *confirmation statement*? Se tiver atraso, **resolva primeiro**, porque gera multa |
+| ✅ | **1. Descobrir o que a empresa é hoje** | feito | É Ltd, ativa e em dia |
+| ✅ | **2. Ver se a empresa está em dia** | feito | Nada atrasado |
+| ☐ | **2b. Ver se a empresa está registrada no HMRC para Corporation Tax** | 15 min | Procure em casa a carta do HMRC com o **UTR** da empresa (10 dígitos), que costuma chegar algumas semanas depois da abertura. **Regra:** a empresa precisa avisar o HMRC em até **3 meses depois de começar a ter atividade** (primeira receita, compra ou contrato). Se ainda não registrou, faça no gov.uk ("register for Corporation Tax"). É grátis |
 | ☐ | **3. Ler seu contrato de trabalho** | 20 min | Procure as palavras: *conflict of interest*, *other employment*, *non-compete*, *non-solicitation*, *confidential*. Anote o que encontrar. Se tiver dúvida, o ACAS tem orientação grátis (acas.org.uk) |
 | ☐ | **4. Verificar se o nome "Crew North" está livre** | 15 min | (a) Companies House: procure "Crew North". (b) UK IPO: "search for a trade mark" no gov.uk, grátis. (c) Instagram e TikTok: @crewnorth está livre? Se estiver ocupado, use a lista B: *Crew North UK*, *Road Crew North*, *Drop Crew* |
 | ☐ | **5. Decidir o nome final** | 10 min | Escolha 1 e anote. **Pronto, está decidido. Não volte nessa decisão.** |
@@ -42,11 +58,11 @@ DE BRITOS (a empresa, a dona de tudo)
 ### Semana 2
 | ✅ | Passo | Tempo | Como fazer |
 |---|---|---|---|
-| ☐ | **6. Atualizar a atividade da empresa (SIC code)** (se for Ltd) | 30 min | Pelo **confirmation statement** online (dá para fazer antes da data anual). Sugestão de códigos: **73110** (agências de publicidade) e **94990** (organizações de membros). Taxa: confira no gov.uk (por volta de £34–£50) |
-| ☐ | **7. Separar o dinheiro da Crew** | 20 min | Se a De Britos já tem conta empresarial: crie uma "pot" ou subconta "Crew North". Se não tem: abra uma conta na Tide, Starling ou Monzo Business (grátis, pelo celular) |
+| ☐ | **6. Atualizar a atividade da empresa (SIC code)** | 30 min | Entre no **WebFiling** da Companies House (vai precisar do *authentication code* da empresa, que chegou por carta no endereço registrado) → "File a confirmation statement" → na parte de SIC: **tirar** 47810 e 56210 (hambúrguer) e **colocar 73110** (agências de publicidade) + **94990** (organizações de membros). Taxa: **£50** online (desde fev/2026). Pode fazer agora, não precisa esperar 2027 |
+| ☐ | **7. Conta bancária da empresa** | 20 min | Se a The Brito's Family Ltd já tem conta: crie uma "pot" ou subconta "Crew North". Se não tem: abra uma conta empresarial **no nome da Ltd** na Tide, Starling ou Monzo Business (grátis, pelo celular, usando o número 17423204) |
 | ☐ | **8. Registrar no ICO** (proteção de dados) | 20 min | ico.org.uk → "data protection fee". Tier 1: por volta de £52 por ano. É obrigatório porque você vai guardar dados dos couriers |
 | ☐ | **9. Criar a pasta da Crew** | 10 min | Google Drive: pasta "Crew North" com subpastas *Empresa*, *Membros*, *Patrocinadores*, *Design*. Coloque os PDFs que já temos lá |
-| ☐ | **10. Escrever a frase da missão** | 10 min | Em uma linha, por exemplo: *"Crew North, by De Britos: quem entrega merece ganhar mais."* Cole no topo da pasta |
+| ☐ | **10. Escrever a frase da missão** | 10 min | Em uma linha, por exemplo: *"Crew North, by The Brito's Family: quem entrega merece ganhar mais."* Cole no topo da pasta |
 
 **🎉 Fim da Fase 0:** a empresa está pronta. Comemore. Já é mais do que 90% das pessoas que "têm uma ideia" fazem.
 
@@ -164,7 +180,7 @@ Cole isso no celular:
 
 ---
 
-## ✅ SEU PRÓXIMO PASSO, HOJE
-**Passo 1 (10 minutos):** abra **find-and-update.company-information.service.gov.uk**, procure "De Britos" e veja se aparece.
+## ✅ SEU PRÓXIMO PASSO
+Os passos 1 e 2 já estão feitos: a empresa é **Ltd, ativa e em dia**.
 
-Depois me diga o que encontrou (Ltd ou não, ativa ou não, algum atraso) e eu ajusto os próximos passos para a sua situação exata.
+**Próximo: passo 2b (15 minutos).** Procure a carta do HMRC com o **UTR** da The Brito's Family Ltd e veja se a empresa já está registrada para Corporation Tax. Depois, **passo 3**: ler o contrato de trabalho.
